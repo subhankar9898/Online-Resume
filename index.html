@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhankar Prusty - Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="container">
+            <div class="profile-card">
+                <img src="image/SP.jpg" alt="Subhankar Prusty" class="profile-pic">
+                <h1>SUBHANKAR PRUSTY</h1>
+                <p class="tagline">B.Tech Student | Aspiring Web Developer</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:subhankar99p@gmail.com">subhankar99p@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:8118076974">8118076974</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Berhampur, Ganjam</p>
+                    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/subhankar-prusty-81160b223" target="_blank">Subhankar_Prusty</a></p>
+                    <p><i class="fas fa-external-link-alt"></i> <a href="https://subhankar9898.github.io/Portfolio/" target="_blank">Portfolio</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">z
+        <div class="container">
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#achievements">Achievements & Awards</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="education" class="resume-section">
+            <h2><i class="fas fa-graduation-cap section-icon"></i> Education</h2>
+            <div class="education-item">
+                <h3>B.Tech - Nist University </h3>
+                <p>2022-2026 | CGPA: 8.12 </p>
+            </div>
+            <div class="education-item">
+                <h3>12th Science - Council of Higher Secondary Education Odisha</h3>
+                <p>2022 | Percentage: 75.3% </p>
+            </div>
+            <div class="education-item">
+                <h3>10th - Saraswati Sisu Vidya Mandira </h3>
+                <p>2020 | Percentage: 75% </p>
+            </div>
+        </section>
+
+        <section id="skills" class="resume-section">
+            <h2><i class="fas fa-code section-icon"></i> Skills </h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-description="Professional Python developer with strong skills in object-oriented programming and working with files. Currently building a project and always learning new things. ">
+                    <i class="fab fa-python skill-icon"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card" data-description="Highly proficient in HTML, with a strong understanding of semantic markup and web structure. Experienced in creating well-organized and accessible content for diverse websites. Know bootstrap framework.">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card" data-description="Highly skilled in JavaScript with a deep understanding of core concepts and extensive DOM manipulation experience. Proficient in building dynamic and interactive web experiences, including game development using DOM and jQuery. ">
+                    <i class="fab fa-js-square skill-icon"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card" data-description="Extensive CSS experience for engaging, responsive website styling using modern techniques to create appealing UIs.">
+                    <i class="fab fa-css3-alt skill-icon"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card" data-description="Experienced with MySQL databases: creating schemas, querying data, and managing information for various applications using SQL.">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill-card" data-description="Actively learning React: proficient in JSX, ES6+, props. Eager to build dynamic UIs.">
+                    <i class="fab fa-react skill-icon"></i>
+                    <h3>React</h3>
+                </div>
+            </div>
+            <div id="skill-popup" class="popup">
+                <div class="popup-content">
+                    <span class="close-button">&times;</span>
+                    <h3 id="popup-skill-title"></h3>
+                    <p id="popup-skill-description"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="resume-section">
+            <h2><i class="fas fa-project-diagram section-icon"></i> Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Air Draw</h3>
+                    <p>Python application for air gesture drawing via webcam, converting movements to sketches. Integrated web search finds images based on these real-time drawings.</p>
+                    <div class="project-links">
+                        <!-- <a href="#" target="_blank" class="button">Live Demo </a> -->
+                        <!-- <a href="#" target="_blank" class="button">GitHub Repo</a> -->
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Dice Challenge game</h3>
+                    <p>Developed a simple two-player dice game website using HTML, CSS, and JavaScript, where refreshing the page simulates dice rolls to determine the winner.</p>
+                    <div class="project-links">
+                        <a href="https://subhankar9898.github.io/Dice-Game/" target="_blank" class="button">Live Demo</a>
+                        <a href="https://github.com/subhankar9898/Dice-Game" target="_blank" class="button">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Drumkit</h3>
+                    <p>Interactive JavaScript web drumkit using DOM manipulation. Keyboard/mouse events trigger sounds, showcasing event handling and dynamic updates. </p>
+                    <div class="project-links">
+                        <a href="https://subhankar9898.github.io/Drumkit/" target="_blank" class="button">Live Demo</a>
+                        <a href="https://github.com/subhankar9898/Drumkit" target="_blank" class="button">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Hangman </h3>
+                    <p>Python Hangman game with user-friendly feedback, implementing core game mechanics like word selection and win/loss. </p>
+                    <div class="project-links">
+                        <!-- <a href="#" target="_blank" class="button">Live Demo</a> -->
+                        <a href="https://github.com/subhankar9898/HangMan" target="_blank" class="button">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Foodie</h3>
+                    <p>Engaging platform promoting healthy food benefits over junk food to inform users and encourage better eating. </p>
+                    <div class="project-links">
+                        <a href="https://subhankar9898.github.io/Foodie" target="_blank" class="button">Live Demo</a>
+                        <a href="https://github.com/subhankar9898/Foodie" target="_blank" class="button">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Simon Game</h3>
+                    <p>Memory game built with HTML, CSS, and jQuery where players repeat increasingly complex light and sound sequences. Demonstrates event handling, animations, and game logic in web development. </p>
+                    <div class="project-links">
+                        <a href="https://subhankar9898.github.io/Simon_Game" target="_blank" class="button">Live Demo</a>
+                        <a href="https://github.com/subhankar9898/Simon_Game" target="_blank" class="button">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>To-Do List</h3>
+                    <p> Interactive To-Do List website for efficiently managing tasks. Easily add and organize your daily 
+                        responsibilities in a simple interface. </p>
+                    <div class="project-links">
+                        <a href="https://subhankar9898.github.io/To-Do-List/" target="_blank" class="button">Live Demo</a>
+                        <a href="https://github.com/subhankar9898/To-Do-List" target="_blank" class="button">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Spotify Song Downloader</h3>
+                    <p> Web app to download Spotify songs using REST APIs. Built with HTML, CSS, and JavaScript. Supports search, track metadata, and download via external services. </p>
+                    <div class="project-links">
+                        <a href="https://subhankar9898.github.io/Spotify-Song-Downloader/" target="_blank" class="button">Live Demo</a>
+                        <a href="https://github.com/subhankar9898/Spotify-Song-Downloader" target="_blank" class="button">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests" class="resume-section">
+            <h2><i class="fas fa-heart section-icon"></i> Interests </h2>
+            <ul>
+                <li>Chess </li>
+                <li>Explore technology </li>
+            </ul>
+        </section>
+
+        <section id="languages" class="resume-section">
+            <h2><i class="fas fa-language section-icon"></i> Languages </h2>
+            <ul>
+                <li>English </li>
+                <li>Hindi </li>
+                <li>Odia </li>
+            </ul>
+        </section>
+
+        <section id="achievements" class="resume-section">
+            <h2><i class="fas fa-trophy section-icon"></i> Achievements & Awards </h2>
+            <div class="achievement-item">
+                <h3>Deloitte Australia Data Analytics Job Simulation on Forage </h3>
+                <p>June 2025 </p>
+                <ul>
+                    <li>Completed a Deloitte job simulation involving data analysis and forensic technology. </li>
+                    <li>Created a data dashboard using Tableau.</li>
+                    <li>Used Excel to classify data and draw business conclusions.</li>
+                </ul>
+            </div>
+            <div class="achievement-item">
+                <h3>Internship </h3>
+                <p>Got certified by Hindustan Aeronautics Limited (HAL) for designing a website. </p>
+            </div>
+            <div class="achievement-item">
+                <h3>DSA </h3>
+                <p>Got certified by Excelr for completing DSA program.</p>
+            </div>
+            <div class="achievement-item">
+                <h3>TCS ION Career Edge - Young Professional </h3>
+                <p>Gained expertise in Communication, Presentation, Resume, Interview Skills, Business Etiquette, IT, Accounting, and AI.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Subhankar Prusty. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
